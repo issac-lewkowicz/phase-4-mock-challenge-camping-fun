@@ -1,5 +1,4 @@
-class CamperSerializerShow < ActiveModel::Serializer
-  attributes :id, :name, :age
+class CamperSerializerShow < CamperSerializer
   has_many :activities
 
 
